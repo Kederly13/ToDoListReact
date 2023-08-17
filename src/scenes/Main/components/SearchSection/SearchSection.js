@@ -1,9 +1,16 @@
+import { SearchForm } from './components/SearchForm';
+
+import classes from './styles.module.css';
+
 const SearchSection = () => (
-  <section className='searchSection'>
-    <div className='container'>
-      
-    </div>
+  <main>
+    <section className={classes.searchSection}>
+      <div className={classes.container}>
+        <SearchForm />
+      </div>
   </section>
+  </main>
+  
 );
 
 export { SearchSection };

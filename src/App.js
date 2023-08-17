@@ -1,10 +1,10 @@
-import './App.css';
+import { Main } from 'scenes/Main';
 
 const App = () => (
   <div className="App">
     <header className="App-header">
-      
     </header>
+      <Main />
   </div>
 );
 

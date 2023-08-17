@@ -56,3 +56,7 @@ main {
   background-color: #F5F5F5;
   min-height: 100vh;
 }
+
+input::-webkit-clear-button {
+  display: none;
+}
