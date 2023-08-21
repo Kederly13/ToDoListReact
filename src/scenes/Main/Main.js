@@ -1,7 +1,11 @@
-import { SearchSection } from "./components/SearchSection";
+import { SearchSection } from './components/SearchSection';
+import { NewTaskSection } from './components/NewTaskSection';
 
 const Main = () => (
-  <SearchSection />
+  <>
+    <SearchSection />
+    <NewTaskSection />
+  </>
 );
 
 export { Main };

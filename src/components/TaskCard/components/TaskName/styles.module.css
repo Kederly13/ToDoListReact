@@ -1,0 +1,19 @@
+.name {
+    margin-top: 30px;
+}
+
+.name__label {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.name__form {
+    font-size: 16px;
+    border-radius: 90px;
+    border: 1px solid #E2E2E2;
+    background: #FFF;
+    padding: 20px;
+    margin-top: 7px;
+}
+

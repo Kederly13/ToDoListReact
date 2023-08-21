@@ -1,0 +1,28 @@
+.button_wrapper {
+    width: 184px;
+}
+
+.button {
+    width: 100%;
+    padding: 0;
+}
+
+.button__content {   
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 45px;
+    background-color: white;
+    border-radius: 60px;
+    align-items: center;
+}
+
+.arrow {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s ease;
+    margin-left: 18px; 
+}
+
+.arrow.active {
+    transform: rotate(180deg);
+}
