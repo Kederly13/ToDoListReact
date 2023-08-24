@@ -1,7 +1,12 @@
 .sortMenu {
+    position: absolute;
+    z-index: 100;
     padding: 0 14px;
     background-color: white;
     border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 
 .sortMenu__menuItem {

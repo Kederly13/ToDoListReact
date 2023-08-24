@@ -4,11 +4,11 @@ import { NewTask } from 'scenes/NewTask';
 import { TaskDetail } from 'scenes/TaskDetails';
 
 
-export enum AppRoutes {
-  MAIN = 'main',
-  EDIT_TASK = 'edit_task',
-  NEW_TASK = 'new_task',
-  TASK_DETAILS = 'task_details',
+export const AppRoutes = {
+  MAIN: 'main',
+  EDIT_TASK: 'edit_task',
+  NEW_TASK: 'new_task',
+  TASK_DETAILS: 'task_details',
 };
 
 export const routePath = {

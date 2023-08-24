@@ -18,7 +18,10 @@ const SortButton = () => {
       <button type='button' onClick={() => haldleClick()} className={classes.button}>
         <div className={classes.button__content}>
           <p className={classes.button__name}>Sort</p>
-          <img src={Arrow} alt='arrow' className={`${classes.arrow} ${isActiveMenu ? classes.active : ''}`} />
+          <img 
+            src={Arrow} 
+            alt='arrow' 
+            className={`${classes.arrow} ${isActiveMenu ? classes.active : ''}`} />
         </div> 
       </button>
       {isActiveMenu ? <SortMenu /> : ''}

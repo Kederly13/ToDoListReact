@@ -1,10 +1,10 @@
 import { SearchSection } from './components/SearchSection';
-import { NewTaskSection } from './components/NewTaskSection';
+import { TasksSection } from './components/TasksSection';
 
 const Main = () => (
   <>
     <SearchSection />
-    <NewTaskSection />
+    <TasksSection />
   </>
 );
 

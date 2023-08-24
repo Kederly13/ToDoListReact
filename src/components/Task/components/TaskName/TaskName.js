@@ -7,7 +7,7 @@ const TaskName = ({ value, onChange }) => (
             <input
                 placeholder='Name of task...'
                 id='task' 
-                name='task' 
+                name='taskName' 
                 type='text'
                 onChange={onChange}
                 value={value} 

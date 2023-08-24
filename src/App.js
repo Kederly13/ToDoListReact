@@ -1,11 +1,18 @@
-import { Main } from 'scenes/Main';
+import { Route, Routes, BrowserRouter } from 'react-router-dom';
+import { routeConfig } from 'routeСonfig/routes';
 
 const App = () => (
-  <div className="App">
-    <header className="App-header">
-    </header>
-      <Main />
-  </div>
+  <BrowserRouter>
+    <Routes>
+      {Object.values(routeConfig).map(({ path, element}) => (
+        <Route
+          key={path}
+          path={path}
+          element={element} 
+        />  
+      ))}
+    </Routes>
+  </BrowserRouter>
 );
 
-export default App;
+export { App };

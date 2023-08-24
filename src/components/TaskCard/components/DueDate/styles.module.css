@@ -1,0 +1,15 @@
+.dueDate {
+    display: flex;
+}
+
+.dueDate__name {
+    color: var(--gray, #717171);
+}
+
+.dueDate__date {
+    color: var(--style, #FF4034);
+}
+
+.dueDate__time {
+    color: var(--style, #FF4034)   
+}

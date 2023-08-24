@@ -1,3 +1,3 @@
-import { EditTask } from './EditTask';
+import { EditTask } from './TaskDetails';
 
 export { EditTask };

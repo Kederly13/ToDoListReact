@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 import { FilterMenu } from './components/FilterMenu';
-import Arrow from './Arrow.svg';
+import Arrow from './down.svg';
 
 import classes from './styles.module.css';
 
